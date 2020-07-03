@@ -1,0 +1,133 @@
+.content-step .step .areas .item.active {
+    background: #24a4b4;
+    color: white;
+}
+
+.content-step .step-04 #s01, .content-step .step-04 #s02,  .content-step .step-04 #s03 {
+    display: none;
+}
+
+.content-step .step-04 .areas.sub-01 .item {
+    height: auto;
+    width: 100%;
+    padding: 15px;
+}
+
+.content-step .step-04 .areas.sub-02 .item {
+    width: 100%;
+}
+
+.content-step .step-04 .areas.sub-01 .item:not(:last-child),
+.content-step .step-04 .areas.sub-02 .item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.content-step .step-04 .title div {
+    margin-bottom: 10px;
+}
+.content-step .step-04 .title small {
+    line-height: 0.8;
+}
+
+
+.content-step .step-04 .fields-group {
+    display: flex;
+    justify-content: flex-end;
+    border: solid green;
+}
+.content-step .step-04 .fields-group .info {
+    display: flex;
+    flex-direction: column;
+}
+.content-step .step-04 .fields-group .info .circle {
+    width: 20px;
+    height: 20px;
+    border: solid 1px #3f454c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 60px 20px;
+    position: relative;
+    font-family: OpenSans-semi-bold;
+}
+
+
+.content-step .step-04 .fields-group .info {
+    position: relative;
+}
+
+.content-step .step-04 .fields-group .info .box {
+    width: 300px;
+    border: solid 1px  #878787;
+    position: absolute;
+    right: 65px;
+    top: 50px;
+    background: white;
+    padding: 10px 10px 10px;
+    font-family: OpenSans;
+    color: #878787;
+}
+.content-step .step-04 .fields-group .info .box:after {
+    content: "";
+    position: absolute;
+    right: -11.5px;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+    border-right: solid 1px  #878787;
+    border-top: solid 1px  #878787;
+    /*border-top: transparent 20px solid;
+    border-bottom: transparent 20px solid;
+    border-right: transparent 20px solid;
+    border-left: #d01d00 20px solid;*/
+
+    /*content: "";
+    position: absolute;
+    right: -40px;
+    top: 0px;
+    border-top: transparent 20px solid;
+    border-bottom: transparent 20px solid;
+    border-right: transparent 20px solid;
+    border-left: white 20px solid;*/
+
+}
+
+.content-step .step-04 .fields-group .fields {
+    margin-right: 11px;
+    width: 30%;
+}
+
+.content-step .step-04 .fields .form-elements .label {
+    margin: 0 0 10px;
+    font-family: OpenSans-light;
+}
+
+
+
+.content-step .step-04 .fields .form-elements:first-child .label {
+    margin-top: 20px;
+}
+
+.content-step .step-04 .fields .form-elements:last-child .label {
+    margin-top: 20px;
+}
+.content-step .step-04 .fields .form-elements:first-child input {
+    background-color: #eeedec;
+}
+.content-step .step-04 .fields input {
+    width: 100%;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.2);
+    border: solid 1px #d2d2d1;
+    padding: 16px 5px 12px;
+}
+
+.content-step .step-04 .fields input::-webkit-input-placeholder {
+    font-family: OpenSans-semi-bold;
+}
+
+@media(max-width: 768px) {
+
+}

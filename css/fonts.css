@@ -1,0 +1,50 @@
+@font-face {
+    font-family: OpenSans;
+    src: local(OpenSans),
+         url("./fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-light;
+    src: local(OpenSans-light),
+    url("./fonts/OpenSans-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-bold;
+    src: local(OpenSans-bold),
+    url("./fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-semi-bold;
+    src: local(OpenSans-semi-bold),
+    url("./fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: Roboto-bold;
+    src: local(OpenSans-semi-bold),
+    url("./fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Baloo;
+    src: local(Baloo-),
+    url("./fonts/Baloo/BalooDa2-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+

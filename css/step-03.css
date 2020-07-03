@@ -1,0 +1,39 @@
+.step-03 .drop-file-container .dashed-square {
+    height: 326px;
+    border: dashed 3px #24a4b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.step-03 .drop-file-container .dashed-square span {
+    font-family: OpenSans-semi-bold;
+    color: #000;
+}
+.step-03 .drop-file-container .dashed-square input {
+    display: none;
+}
+.step-03 .drop-file-container .dashed-square .dropped-content {
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: OpenSans-semi-bold;
+}
+.step-03 .drop-file-container .dashed-square .dropped-content .del {
+    color: #00a2c2;
+}
+.step-03 .drop-file-container .dashed-square .dropped-content img {
+    margin-bottom: 10px;
+    width: 113px;
+    height: 132px;
+}
+
+.step-03 textarea {
+    width: 99%;
+    border: solid 1px #d2d2d1;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+}

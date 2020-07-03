@@ -1,0 +1,281 @@
+html, body {
+    background-image: url("../images/background.jpg");
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #0a111a;
+}
+
+
+.container header {
+    background: #123a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 17px 0 17px;
+}
+
+.container header .menu {
+    margin: 0 90px 0;
+}
+.container header .menu.mb {
+    font-size: 40px;
+    color: white;
+    display: none;
+}
+
+.container header .logo {
+    height: 50px;
+    width: 250px;
+    margin: 0 90px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container header .logo .rombo {
+    width: 50px;
+    height: 50px;
+    background: #00a0c0;
+    transform: rotate(135deg);
+    border-radius: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container header .logo .text {
+    margin-left: 20px;
+    font-family: Baloo;
+    line-height: 1;
+}
+
+.container header .logo .text .title {
+    font-size: 30px;
+    color: white;
+}
+
+
+.container header .logo .text .sub-title {
+    font-size: 12px;
+    color: #5ca1c0;
+
+    letter-spacing: 11px;
+}
+
+.container header .logo .rombo .w-circle {
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container header .logo .rombo .w-circle .b-circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background: #000;
+}
+
+.container header .menu ul  {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.container header .menu ul li:not(:last-child) {
+
+    margin: 10px;
+}
+.container header .menu ul li {
+    list-style-type: none;
+    color: #fff;
+    font-family: OpenSans;
+}
+.container header .menu ul li .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.container header .menu ul li button {
+    padding: 12px;
+    border-radius: 30px;
+    width: 200px;
+    font-family: OpenSans;
+    background: #24a4b4;
+    color: white;
+    border: none;
+    border: solid 1px white;
+}
+.container header .menu ul li .avatar img {
+    width: 100%;
+}
+
+.container section.body {
+    display: flex;
+    margin-top: 40px;
+}
+
+.container section .aside {
+    width: 500px;
+}
+.container section .aside .step-number {
+    display: flex;
+    align-items: center;
+    margin: 0px 90px 0px;
+    width: 100%;
+
+}
+.container section .aside .step-number .bullet {
+    background: #00a2c2;
+    color: white;
+    width: 59.4px;
+    height: 58.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-family: OpenSans-semi-bold;
+}
+.container section .aside .step-number .label {
+    color: #07a0c0;
+    font-family: OpenSans;
+}
+
+.container section .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container section .content .step-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.container section .content .step-title .title {
+    font-size: 25px;
+    color: #0a111a;
+    font-family: OpenSans-light;
+    width: 100%;
+}
+.container section .content .step-title .sub-title {
+    font-family: OpenSans-light;
+    width: 100%;
+}
+
+.container section .content .content-step {
+    margin: 0 90px 0 0;
+}
+
+.container section .content .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-top: 40px;*/
+    margin: 40px 90px 0 0;
+    margin-bottom: 30px;
+}
+.container section .content .btn-container a:first-child {
+    text-decoration: none;
+    color: #00a2c2;
+}
+.container section .content .btn-container a:last-child {
+    padding: 15px;
+    border: none;
+    background: #00a2c2;
+    color: white;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-family: OpenSans-semi-bold;
+}
+
+@media(max-width: 840px) {
+    .content-step .step-02 .areas .item,
+    .content-step .step .areas .item {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 992px) {
+
+    header .menu {
+        display: none;
+    }
+    .container header .menu.mb {
+        display: block;
+        margin: 0 30px 0;
+    }
+
+    .skills .form-elements button .plus {
+        display: none;
+    }
+    .skills .items-skills .element {
+        margin-bottom: 15px;
+    }
+    .container section .content .btn-container a {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .container header .logo {
+        margin: 0 30px;
+    }
+    .container section.body {
+        flex-direction: column;
+    }
+    .container section .aside {
+        margin: 0 30px;
+    }
+    .container section .aside .step-number {
+        margin: initial;
+    }
+    .container section .content .step-title {
+
+    }
+
+    .container section .content .content-step {
+        margin: initial;
+    }
+    .container section .content {
+        width: auto;
+        margin: 30px !important;
+    }
+
+    /*
+    .content-step .step-02 .areas,
+    .content-step .step .areas {
+        margin: 0 30px !important;
+    }
+    */
+    .content-step .step-02 .areas .item,
+    .content-step .step .areas .item {
+        width: 100% !important;
+    }
+
+
+    .content-step .step .areas .item {
+        margin: inherit;
+        margin-right: inherit !important;
+        margin-bottom: 15px;
+    }
+
+
+    .container section .content .btn-container {
+        margin-right: inherit;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,25 @@
+.content-step .step-01 {
+}
+
+.content-step .step-01 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-step .step-01 form .form-elements:last-child {
+    margin-top: 30px;
+}
+.content-step .step-01 form .form-elements {
+    display: flex;
+    flex-direction: column;
+}
+.content-step .step-01 form .form-elements label {
+    margin: 10px 0;
+    font-family: OpenSans-light;
+}
+.content-step .step-01 form .form-elements input,
+.content-step .step-01 form .form-elements textarea {
+    padding: 10px;
+    border: solid white 1px;
+}
